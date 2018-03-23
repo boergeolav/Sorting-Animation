@@ -6,7 +6,7 @@ import gui.SortingAnimationPanel;
 
 public abstract class SortingAlgorithm {
 	
-	protected final static long delayBetweenSwaps = 10;
+	protected final static long DELAY_BETWEEN_SWAPS = 300;
 	
 	protected List<Integer> list;
 	protected SortingAnimationPanel saPanel;

@@ -25,7 +25,7 @@ public class SelectionSort extends SortingAlgorithm {
 				Integer temp = list.get(i);
 				list.set(i, min);
 				list.set(indexOfMin, temp);
-				Thread.sleep(delayBetweenSwaps);
+				Thread.sleep(DELAY_BETWEEN_SWAPS);
 				saPanel.removeAll();
 				saPanel.getParent().repaint();
 //				saPanel.repaint();

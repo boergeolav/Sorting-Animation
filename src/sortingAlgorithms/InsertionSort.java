@@ -19,7 +19,7 @@ public class InsertionSort extends SortingAlgorithm {
 				list.set(i + 1, list.get(i--));
 			}
 			list.set(i + 1, key);
-			Thread.sleep(delayBetweenSwaps);
+			Thread.sleep(DELAY_BETWEEN_SWAPS);
 			saPanel.removeAll();
 			saPanel.getParent().repaint();
 //			saPanel.repaint();

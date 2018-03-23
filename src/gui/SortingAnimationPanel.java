@@ -9,8 +9,6 @@ import javax.swing.JPanel;
 
 public class SortingAnimationPanel extends JPanel {
 	
-	private String sortName;
-	
 	private int max;
 	
 	private final static int ELEMENT_WIDTH = 8;
@@ -26,7 +24,6 @@ public class SortingAnimationPanel extends JPanel {
 	public SortingAnimationPanel(List<Integer> model, String sortName) {
 		super();
 		setBorder(BorderFactory.createTitledBorder(sortName));
-		this.sortName = sortName;
 		this.model = model;
 		this.max = findMax(model).intValue();
 //		System.out.println("The list: " + model.toString());

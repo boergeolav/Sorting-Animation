@@ -17,7 +17,7 @@ public class BubbleSort extends SortingAlgorithm {
 					Integer temp = list.get(j);
 					list.set(j, list.get(j + 1));
 					list.set(j + 1, temp);
-					Thread.sleep(delayBetweenSwaps);
+					Thread.sleep(DELAY_BETWEEN_SWAPS);
 					saPanel.removeAll();
 					saPanel.getParent().repaint();
 //					saPanel.repaint();
